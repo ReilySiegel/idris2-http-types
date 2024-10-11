@@ -1,0 +1,10 @@
+[custom.all.http-types]
+type = "local"
+path = "."
+ipkg = "http-types.ipkg"
+test = "test/test.ipkg"
+
+[custom.all.http-types-test]
+type = "local"
+path = "test"
+ipkg = "test.ipkg"
